@@ -24,7 +24,7 @@ if st.session_state.show_intro:
     with splash.container():
         st.markdown("<h1 style='text-align:center;'>Welcome to DICTIONARY-APP!</h1>", unsafe_allow_html=True)
         st_lottie(lottie_intro, height=300, speed=1.0, loop=False)
-        time.sleep(3)
+        time.sleep(2.5)
     splash.empty()
     st.session_state.show_intro = False
 
